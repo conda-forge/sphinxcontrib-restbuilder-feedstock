@@ -20,12 +20,15 @@ outputs it as reST.
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/sphinxcontrib-restbuilder-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/sphinxcontrib-restbuilder-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/sphinxcontrib-restbuilder-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/sphinxcontrib-restbuilder-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/sphinxcontrib-restbuilder/badges/version.svg)](https://anaconda.org/conda-forge/sphinxcontrib-restbuilder)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/sphinxcontrib-restbuilder/badges/downloads.svg)](https://anaconda.org/conda-forge/sphinxcontrib-restbuilder)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-sphinxcontrib--restbuilder-green.svg)](https://anaconda.org/conda-forge/sphinxcontrib-restbuilder) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/sphinxcontrib-restbuilder.svg)](https://anaconda.org/conda-forge/sphinxcontrib-restbuilder) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/sphinxcontrib-restbuilder.svg)](https://anaconda.org/conda-forge/sphinxcontrib-restbuilder) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/sphinxcontrib-restbuilder.svg)](https://anaconda.org/conda-forge/sphinxcontrib-restbuilder) |
 
 Installing sphinxcontrib-restbuilder
 ====================================
