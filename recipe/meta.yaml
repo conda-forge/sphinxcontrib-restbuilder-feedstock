@@ -1,6 +1,6 @@
 {% set name = "sphinxcontrib-restbuilder" %}
-{% set version = "0.1" %}
-{% set sha256 = "8f2d7d73930fdedc3571adab32fbe843b4716829a291dbb27bab56b7c8d1e23d" %}
+{% set version = "0.2" %}
+{% set sha256 = "ad2ce3d99384830b136a24b834a1e7aee788918cbcf4eb31a7ee257e5897c6e2" %}
 
 package:
   name: {{ name|lower }}
