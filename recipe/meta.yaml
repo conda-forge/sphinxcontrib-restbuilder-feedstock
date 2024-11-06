@@ -1,5 +1,5 @@
 {% set name = "sphinxcontrib-restbuilder" %}
-{% set version = "0.2" %}
+{% set version = "0.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: ad2ce3d99384830b136a24b834a1e7aee788918cbcf4eb31a7ee257e5897c6e2
+  sha256: 6b3ee9394b5ec5e73e6afb34d223530d0b9098cb7562f9c5e364e6d6b41410ce
 
 build:
   number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
@@ -32,7 +32,7 @@ about:
   license: BSD 2-clause
   license_family: BSD
   license_file: LICENSE.txt
-  summary: 'Sphinx extension to output reST files.'
+  summary: Sphinx extension to output reST files.
 
   description: |
     Sphinx extension to build reST (reStructuredText) files.
